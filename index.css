@@ -1,0 +1,8 @@
+/* Home Page Styles */
+
+#navigation {
+  display:flex;
+  outline: orange solid 5px;
+  margin-left:auto;
+  margin-right:auto;
+} 
