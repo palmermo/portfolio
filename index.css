@@ -1,4 +1,17 @@
 /* Home Page Styles */
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  transition: height 4s;
+  height: 70%
+}
 
 #navigation {
   text-align:center;
@@ -41,9 +54,11 @@
   opacity:0.7;
 }
 
-#name-container{
-  text-align:center;
-  margin-top:15%;
+#name-container {
+  text-align: center;
+  margin-top: 15%;
+  /* outline: purple solid; */
+  height: 58px;
 }
 
 #name {
@@ -52,9 +67,53 @@
 
 .name {
   margin: 3%;
+  height: 170px;
   font-size: 200%;
   color: grey;
   font-family: 'Montserrat', sans-serif;
+}
 
+#about-section {
+  height: 107px;
+  font-size: 110%;
+  font-family: 'Lato', sans-serif;
+  /* outline: orange solid 2px; */
+  display: flex;
+  color: black;
+  opacity: 0.63;
+  justify-content: center;
+}
+
+.aboutme {
+  margin: 0.3%;
+  margin-top:0.05%;
+}
+
+#developer{
+  margin-left: 2.5%;
+
+}
+
+#learner{
+
+}
+
+#agile{
+
+}
+
+#work-section {
+  height: 200px;
+  /* outline:lightblue 3px solid; */
+}
+
+#interests-section {
+  height: 200px;
+  /* outline:lightblue 3px solid; */
+}
+
+#social-section {
+  height: 200px;
+  /* outline:lightblue 3px solid; */
 }
 
