@@ -1,8 +1,61 @@
 /* Home Page Styles */
 
 #navigation {
-  display:flex;
-  outline: orange solid 5px;
-  margin-left:auto;
-  margin-right:auto;
+  text-align:center;
 } 
+
+#inside-nav {
+  display:inline-flex;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 120%;
+  color: grey;
+  cursor: pointer;
+}
+
+#about {
+  /* outline: blue solid 2px; */
+  margin-right: 4%;
+}
+
+#about:hover {
+  opacity:0.7;
+}
+
+#work {
+  margin-right: 4%;
+}
+
+#work:hover {
+  opacity:0.7;
+}
+
+#interests {
+  margin-right: 4%;
+}
+
+#interests:hover {
+  opacity:0.7;
+}
+
+#social:hover {
+  opacity:0.7;
+}
+
+#name-container{
+  outline: 3px deeppink solid;
+  text-align:center;
+  margin-top:15%;
+}
+
+#name {
+  display:inline-flex;
+}
+
+.name {
+  margin: 3%;
+  font-size: 200%;
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
