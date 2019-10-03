@@ -1,4 +1,5 @@
 /* Home Page Styles */
+
 a {
   text-decoration: none;
 }
@@ -9,30 +10,21 @@ a:visited {
 }
 
 a:active {
-  transition: height 4s;
-  height: 70%
+  color: orange;
+  border-bottom: orange 2px solid;
 }
 
-#navigation {
-  text-align:center;
-  outline: orange solid 3px;
-} 
-
 #inside-nav {
-  display:inline-flex;
+  display: flex;
   font-family: 'Montserrat', sans-serif;
   font-size: 120%;
-  outline:blue solid 2px;
+  outline: blue solid 2px;
   color: grey;
   cursor: pointer;
-  width: 276px;
 }
 
 #about {
-  /* outline: blue solid 2px; */
-  margin-right: 4%;
-  /* outline:deeppink solid 2px; */
-
+margin-left: auto;
 }
 
 #about:hover {
@@ -40,9 +32,7 @@ a:active {
 }
 
 #work {
-  margin-right: 4%;
-  /* outline:deeppink solid 2px; */
-
+  margin-left: 1%;
 }
 
 #work:hover {
@@ -50,80 +40,28 @@ a:active {
 }
 
 #interests {
-  margin-right: 4%;
-  /* outline:deeppink solid 2px; */
-
+  margin-left: 1%;
 }
 
 #interests:hover {
   opacity:0.7;
 }
 
+#social {
+  margin-left: 1%;
+}
+
 #social:hover {
   opacity:0.7;
-  outline:deeppink solid 2px;
-
 }
 
-#name-container {
+#about-me-intro {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 7%;
   outline:deeppink solid 2px;
-  height: 58px;
-}
-
-#name {
-  display:inline-flex;
-  outline:deeppink solid 2px;
-
-}
-
-.name {
-  margin: 3%;
-  height: 170px;
-  font-size: 600%;
+  font-size:36px;
   color: grey;
   font-family: 'Montserrat', sans-serif;
-}
-
-#about-section {
-  height: 107px;
-  font-size: 110%;
-  margin-top:7%;
-  font-family: 'Lato', sans-serif;
-  outline:deeppink solid 2px;
-  display: flex;
-  color: black;
-  opacity: 0.63;
-  justify-content: center;
-}
-
-.aboutme {
-  margin: 0.3%;
-  margin-top:0.05%;
-  outline:deeppink solid 2px;
-
-}
-
-#developer{
-  margin-left: 2.5%;
-  outline:deeppink solid 2px;
-
-}
-
-#learner{
-  outline:deeppink solid 2px;
-
-}
-
-#agile{
-  outline:deeppink solid 2px;
-
-}
-
-#work-section {
-  height: 200px;
-  outline:deeppink solid 2px;
 }
 
 #interests-section {
@@ -131,11 +69,20 @@ a:active {
   outline:deeppink solid 2px;
 }
 
-#social-section {
-  height: 200px;
-  outline:deeppink solid 2px;
+#about-me-text {
+  margin-top: -24px;
 }
 
-#headshot {
-  margin-left: 7.5%;
+#grid-container {
+  display: grid;
+  outline: orange 2px solid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.grid-item {
+  outline: orangered 3px solid;
+  width: 400px;
+  height: 400px;
 }
