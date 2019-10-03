@@ -1,20 +1,30 @@
 /* Home Page Styles */
 
-#navigation {
-  text-align:center;
-} 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  color: orange;
+  border-bottom: orange 2px solid;
+}
 
 #inside-nav {
-  display:inline-flex;
+  display: flex;
   font-family: 'Montserrat', sans-serif;
   font-size: 120%;
+  outline: blue solid 2px;
   color: grey;
   cursor: pointer;
 }
 
 #about {
-  /* outline: blue solid 2px; */
-  margin-right: 4%;
+margin-left: auto;
 }
 
 #about:hover {
@@ -22,7 +32,7 @@
 }
 
 #work {
-  margin-right: 4%;
+  margin-left: 1%;
 }
 
 #work:hover {
@@ -30,31 +40,49 @@
 }
 
 #interests {
-  margin-right: 4%;
+  margin-left: 1%;
 }
 
 #interests:hover {
   opacity:0.7;
 }
 
+#social {
+  margin-left: 1%;
+}
+
 #social:hover {
   opacity:0.7;
 }
 
-#name-container{
-  text-align:center;
-  margin-top:15%;
-}
-
-#name {
-  display:inline-flex;
-}
-
-.name {
-  margin: 3%;
-  font-size: 200%;
+#about-me-intro {
+  text-align: center;
+  margin-top: 7%;
+  outline:deeppink solid 2px;
+  font-size:36px;
   color: grey;
   font-family: 'Montserrat', sans-serif;
-
 }
 
+#interests-section {
+  height: 200px;
+  outline:deeppink solid 2px;
+}
+
+#about-me-text {
+  margin-top: -24px;
+}
+
+#grid-container {
+  display: grid;
+  outline: orange 2px solid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  margin-top: 7%;
+}
+
+.grid-item {
+  outline: orangered 3px solid;
+  width: 400px;
+  height: 400px;
+}
