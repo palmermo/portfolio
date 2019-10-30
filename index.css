@@ -2,11 +2,13 @@
 
 a {
   text-decoration: none;
+  color:orange;
+  opacity: 0.7;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color:black;
 }
 
 a:active {
@@ -18,9 +20,10 @@ a:active {
   display: flex;
   font-family: 'Montserrat', sans-serif;
   font-size: 120%;
-  outline: blue solid 2px;
+  height: 92px;
+  padding-top: 47px;
+  /* outline: blue solid 2px; */
   color: grey;
-  cursor: pointer;
 }
 
 #about {
@@ -31,11 +34,11 @@ margin-left: auto;
   opacity:0.7;
 }
 
-#work {
+#portfolio-nav {
   margin-left: 1%;
 }
 
-#work:hover {
+#portfolio-nav:hover {
   opacity:0.7;
 }
 
@@ -55,34 +58,106 @@ margin-left: auto;
   opacity:0.7;
 }
 
-#about-me-intro {
+#hero-text {
+  font-size: 78px;
+  /* outline: blue 2px solid; */
   text-align: center;
-  margin-top: 7%;
-  outline:deeppink solid 2px;
-  font-size:36px;
-  color: grey;
-  font-family: 'Montserrat', sans-serif;
+  color: darkgray;
+  padding-top: 119px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+#hero-image {
+  background-image: url("account-opacity.png");
+  height: 500px;
+  width: 1423px;
+  /* border-top: black 2px solid; */
+}
+
+#skills-section {
+  height: 300px;
+  /* outline: orange solid 3px; */
+  display:flex;
+  border-bottom: grey solid 2px;
+}
+
+
+.skill-item {
+  width: 33%;
+  /* outline: orange solid 2px; */
+  text-align:center;
+}
+
+.cs-lang {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#portfolio-section {
+  text-align:center;
+  /* display: flex; */
+  /* outline: 3px orange solid; */
+  justify-content: center;
+}
+
+.portfolio-item{
+  width: 500px;
+  height: 400px;
+  margin: 32px;
 }
 
 #interests-section {
-  height: 200px;
-  outline:deeppink solid 2px;
-}
-
-#about-me-text {
-  margin-top: -24px;
-}
-
-#grid-container {
-  display: grid;
-  outline: orange 2px solid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  /* outline: 3px orange solid; */
   justify-content: center;
-  margin-top: 7%;
+  border-bottom: grey solid 2px;
+
+
 }
 
-.grid-item {
-  outline: orangered 3px solid;
-  width: 400px;
-  height: 400px;
+.interests-item{
+  width: 350px;
+  height: 350px;
+  margin: 32px;
+}
+
+#portfolio {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 47px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: 'Muli', sans-serif;
+}
+
+#tinygarden {
+  cursor: pointer;
+}
+
+#tipsee {
+  cursor: pointer;
+}
+
+#cert {
+  text-align:center;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 47px;
+  height: 50px;
+  margin-top: 20px;
+  font-family: 'Muli', sans-serif;
+}
+
+#cspo {
+  text-align:center;
+  justify-items: center;
+}
+
+#psm {
+  text-align:center;
+  justify-items: center;
 }
