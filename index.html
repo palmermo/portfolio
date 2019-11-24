@@ -6,80 +6,119 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Matthew Palmer</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="typing.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="p_RtH_icon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/4fac38b0eb.js" crossorigin="anonymous"></script>
-
-    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   </head>
   <body>
 
-  <div id="navigation">
+  <!-- <div id="navigation"> -->
    
-    <div id="inside-nav">
+    <div class="navbar animated slideInTop">
 
-      <div id="my-name"> Matthew Palmer </div>
+        <div id="home">
+            <a target='_'>matthew palmer
+            </a>        
+        </div>
+        <div id="skills">
+            <a target='_'> work
+            </a>        
+          </div>
 
-        <div id="about"> <a href='#developer'>
-          skills  </a>
+         <div id="about">
+            <a target='_' href="https://www.linkedin.com/in/matthewopalmer/"> about
+            </a>        
         </div>
-        <div id="portfolio-nav">
-           portfolio 
+
+        <div id="resume">
+            <a target='_' href="        https://i.ibb.co/Bqvg8BX/matthew-palmer-resume-2019-1.png
+            "> resume
+            </a>        
         </div>
-        
-        <div id="interests">
-           interests 
-        </div>
-        
-        <div id="social">
-           social
-        </div>
-      
     </div>
 
-      <div id='hero-image'>
+              <div id='bgd-image-box'>
+                  <div id='testbox'>
+                  <span id="typed"></span>
+                               <div id='typed-strings'>
+                                 <p> Teacher. </p>
+                                  <p> <strong>Product Manager.</strong> </p>
+                                 <p> Scrum <strong>Master</strong></p>
+                                 <p> Learner.<p>
+                               </div>
+                     </div>
+                </div>
 
-          <div id='hero-text'>Product Owner | Scrum Master  Developer</div>
-
-      </div>
-
-      <div id='portfolio'>Portfolio</div>
-      <div id='portfolio-section'>
-          <div id='tinygarden'>
-              <img src='tinygarden.png' class='portfolio-item'>
-          </div>
-          <div id='tipsee'>
-             <img src='tipsee.png' class='portfolio-item'> 
-          </div>
-        </div>
-
-        <div id='cert'>Certifications</div>
-          
-        
-          <div id='cspo'>
-            <img src='cspo.png'>
-          </div>
-          <div id='psm'>
-              <img src='psmlogo.png'>
-          </div>
-
-        </div>
+       
       
-    
 
-      </div>
-     
+        <!-- Skill Cards -->
 
-<div id="footer">
-  Footer
-</div>
+            <div  class='container animated slideInRight slower'>
+                <div class="card">
+                    <a target='_' href="http://tinygarden.herokuapp.com/">
+                        <img src="https://i.ibb.co/ftwYfxB/tinygarden.png">
+                        <div class="konten">
+                            <p class="card-text">
+                              An ecommerce app for buying plants and designing spaces with the millenial in mind. Tinygarden leverages ruby on rails and react. The design feature is created using vanila javascript. 
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a target='_' href="https://i.ibb.co/kHjfX76/PSM-I-1-page-001.jpg">
+                        <img src="https://i.ibb.co/kHjfX76/PSM-I-1-page-001.jpg" alt="">
+                        <div class="konten">
+                            <p class="card-text">
+                                The Professional Scrum MasterTM level I (PSM I) represents fundamental mastery of the scrum framework application. THE PSM I is an industry recognized certifcation issued by scrum.org. 
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a target='_' href="http://tipsee.herokuapp.com/">
+                        <img src="https://i.ibb.co/87Bvxdn/tipsee.png" alt="">
+                        <div class="konten">
+                            <p class="card-text">
+                              Tipsee is a search centric web application for users who would like to learn how to make drink cocktails. Tipsee utilizes react on rails, and API calls via the cocktaildb app.    
+                        </div>
+                    </a>
+                </div>
+            </div>
+          </div>
 
+<!-- <div id="footer"> -->
 
- 
-  
+        <div id='insidefoot'>
+          <div class='footeritem' id='item1'>
+            <img class='social' id='twitter' src="twitter-l.png">
+          </div>
+          <div class='footeritem' id='item2'>
+            <img class='social' src="github-l.png">
+          </div>
+          <div class='footeritem' id='item3'>
+            <img class='social' id='lkdn' src="linkedin-l.png">
+          </div>
+          <div class='footeritem' id='item4'>
+            <img class='social' id='instagram' src="instagram-l.png">
+          </div>
+        </div>
+
 </body>
+
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 100,
+  });
+</script>
 
 </html>
