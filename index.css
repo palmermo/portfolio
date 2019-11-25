@@ -220,7 +220,7 @@ transform: rotateZ(360deg);
   width: 437px;
   text-align:center;
   /* outline: black solid 1px; */
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px; */
   /* border-radius: 16px; */
   transition: all 0.3s ease;
 }
