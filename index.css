@@ -1,4 +1,7 @@
 /* Home Page Styles */
+* p {
+  font-family: 'Montserrat', sans-serif !important;
+}
 
  a {
    color: black;
@@ -57,6 +60,15 @@ a:active {
   /* display:flex; */
   font-family: 'Montserrat', sans-serif;
   /* background-color: bisque; */
+  opacity: 0.8;
+}
+
+#insidefootright {
+  top: 40%;
+  position:fixed;
+  margin-left: 95%;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
   opacity: 0.8;
 }
 
@@ -212,7 +224,7 @@ transform: rotateZ(360deg);
   justify-content: space-around;
   margin:auto;
   height: 450px;
-  /* padding-top: 20px; */
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .container .card{
@@ -223,6 +235,8 @@ transform: rotateZ(360deg);
   /* box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px; */
   /* border-radius: 16px; */
   transition: all 0.3s ease;
+  font-family: 'Montserrat', sans-serif !important;
+
 }
 
 .container .card:hover{
@@ -230,23 +244,63 @@ transform: rotateZ(360deg);
 }
 .container .card a{
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif !important;
+
 }
 
 .container .card a img{
   padding: 16px 16px 0px 16px;
   height: 250px;
   width: 370px;
+  transition: 0.3s;
+}
+
+.container .card a img:hover{
+  transform: scaleX(0.9);
+  width: 370px;
 }
 
 .container .card a .konten{
   padding: 0px 16px 16px 16px;
+  font-family: 'Montserrat', sans-serif !important;
+
 }
 
 .container .card a .konten p{
   font-size: 18px;
   border-top: 1px solid lightgrey;
+  font-family: 'Montserrat', sans-serif !important;
   padding-top: 19px;
   color: #1C1D1D;
   font-weight: 300;
+
 }
 
+.container .card a .konten p .card-text {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.konten {
+  font-family: 'Montserrat', sans-serif !important;
+
+}
+
+#about-pic {
+  background-image: url('https://i.ibb.co/VBmvz9x/bnw-matthew.jpg');
+}
+
+#about-text {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 19px;
+}
+
+#about-container {
+  width: 85vw;
+  height: 85vh;
+  margin:auto;
+}
+
+#bnwpic {
+  width: 85vw;
+  height: 85vh;
+}
