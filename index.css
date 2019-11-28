@@ -46,6 +46,7 @@ a:active {
 #home {
   margin-right:55%;
   margin-left: 7%;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -141,6 +142,15 @@ transform: rotateZ(360deg);
 .social {
   width: 50px;
   height:50px;
+  transition: 0.3s;
+}
+
+.social:hover {
+  transform: scale(1.1);
+  /* background-color: lightgreen; */
+  /* border-radius: 50%; */
+  transform: rotateZ(360deg);
+
 }
 
 /* Typing Animation */
@@ -270,9 +280,6 @@ transform: rotateZ(360deg);
   font-family: 'Montserrat', sans-serif !important;
   color:lightgreen;
 }
-
-
-hover
 
 .container .card a .konten p{
   font-size: 18px;
